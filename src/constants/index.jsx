@@ -16,6 +16,7 @@ export const navItems = [
   { label: "Vps Ryzen 7950X", href: "https://my.speedypage.com/aff.php?aff=437"},
   { label: "Vps Trading", href: "https://bill.alexhost.com/?affid=821" },
   { label: "Cheap Vps", href: "https://my.hostbrr.com/order/forms/a/NTMwNw==" },
+  { label: "Detail Jasa", href: "/product-detail" },
 ];
 
 export const testimonials = [
@@ -125,8 +126,7 @@ export const pricingOptions = [
     price: "Start 100K",
     features: [
       "Shopee Followers",
-      "Shopee Like Product",
-      "Shopee Bot Views Live",
+      "Shopee Video Like",
       "Coming Soon",
     ],
     orderLink: "https://t.me/capscyber?text=halo%20admin%2C%20saya%20mau%20order%20jasa%20shopeenya",
@@ -138,7 +138,6 @@ export const pricingOptions = [
       "Tiktok Followers",
       "Tiktok Views",
       "Tiktok Likes",
-      "Tiktok Comments",
       "Tiktok Share",
     ],
     orderLink: "https://t.me/capscyber?text=halo%20admin%2C%20saya%20mau%20order%20jasa%20tiktoknya",
@@ -148,8 +147,6 @@ export const pricingOptions = [
     price: "Start 100K",
     features: [
       "Tokopedia Followers",
-      "Tokopedia Like Product",
-      "Tokopedia Bot Views Live",
       "Coming Soon",
     ],
     orderLink: "https://t.me/capscyber?text=halo%20admin%2C%20saya%20mau%20order%20jasa%20tokopedianya",
@@ -161,7 +158,7 @@ export const pricingOptions = [
       "Instagram Followers",
       "Instagram Views",
       "Instagram Likes",
-      "Instagram Comments",
+      "Instagram Story",
     ],
     orderLink: "https://t.me/capscyber?text=halo%20admin%2C%20saya%20mau%20order%20jasa%20suntik%20instagramnya",
   },
@@ -172,7 +169,7 @@ export const pricingOptions = [
       "Youtube Suscribers",
       "Youtube Views",
       "Youtube Likes",
-      "Positive Comments",
+      "Youtube Comments",
     ],
     orderLink: "https://t.me/capscyber?text=halo%20admin%2C%20saya%20mau%20order%20jasa%20suntik%20youtubenya",
   },
