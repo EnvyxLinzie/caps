@@ -16,7 +16,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl tracking-tight">Capscyber</span>
+            <a href="/" className="text-xl tracking-tight">
+              Capscyber
+            </a>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -27,9 +29,8 @@ const Navbar = () => {
           </ul>
           <div className="hidden lg:flex justify-center space-x-6 items-center">
             <a href="https://t.me/Capscyber" className="py-2 px-3 border rounded-md">
-            Order Jasa
+              Order Jasa
             </a>
-            
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
@@ -50,7 +51,6 @@ const Navbar = () => {
               <a href="https://t.me/Capscyber" className="py-2 px-3 border rounded-md">
                 Order Jasa
               </a>
-
             </div>
           </div>
         )}
