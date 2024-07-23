@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    <div className="flex flex-col items-center">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         Cybercaps Layanan Terbaik Untuk Kamu Yang
         <span className="bg-gradient-to-r from-blue-500 to-green-800 text-transparent bg-clip-text">
